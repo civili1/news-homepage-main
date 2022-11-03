@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:hsl(36, 100%, 99%);
+    --text-color:hsl(236, 13%, 42%);
+}
+
+body {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.home {
+    width: 1440px;
+    height: 100vh;
+    background-color: var(--primary-color);
+    padding: 5em 10em;
+}
+
+.home header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.home header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.home header nav ul li {
+    margin-right: 2em;
+}
+
+.home header nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.home main article {
+    width: 66%;
+}
+
+.home main img {
+    width: 100%;
+}
+
+.home main .text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.home main .text h1 {
+    font-size: 3.7em;
+    font-weight: 800;
+    width: 45%;
+    line-height: 1em;
+}
+
+.home main .text-read {
+    width: 50%;
+    line-height: 1.5em;
+    font-size: 15px;
+    padding: 0 1em;
+    color: var(--text-color);
+}
+
+.home main .text button {
+    margin: 3em 0;
+    padding: 1rem 2rem;
+    letter-spacing: .3em;
+    background-color: hsl(5, 85%, 63%);
+    color: #fff;
+    border: none;
+    font-weight: 700;
+}
+
+.home main article {
+    display: flex;
+    width: 100%;
+}
+
+.home main article aside {
+    width: 75%;
+    background-color: hsl(240, 100%, 5%);
+    margin: 0 2em;
+    color: #fff;
+    min-width:300px ;
+    height: 50%;
+}
+
+.home main article aside .aside-bar {
+    padding: 2em 1.5em 0 1.5em;
+}
+
+.home main article aside h2 {
+    font-size: 2em;
+    text-align: start;
+    color: hsl(35, 77%, 62%);
+}
+
+.home main article aside .content {
+    border-bottom: 1px hsl(233, 8%, 79%) solid;
+    padding: 1.5em 0;
+}
+
+.home main article aside .content h3 {
+    margin-bottom: 1em ;
+}
+
+.home main article aside .content p {
+    line-height: 2em;
+    color: hsl(233, 8%, 79%);
+}
+
+.bottom-news .news {
+    display: flex;
+    margin-top: 2em;
+}
+
+main aside .news .new img {
+    width: 100px;
+    height: 140px;
+    margin-right: 2em;
+    background-color: red;
+    min-width: 100px;
+    min-height: 30%;
+}
+
+.bottom-news .news .new {
+    display: flex;
+}
+
+.bottom-news .news .new .new-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1em;
+    width: 60%;
+}
+
+.bottom-news .news .new .new-text h3 {
+    font-size: 2em;
+    color:hsl(233, 8%, 79%) ;
+}
+
+.bottom-news .news .new .new-text h4 {
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.bottom-news .news .new .new-text p {
+    color: var(--text-color);
+    line-height: 1.5em;
+    width: 100%;
+    min-width: 150px;
+}
+
+
+
+
